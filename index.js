@@ -42,17 +42,8 @@ client.connect(3000, '127.0.0.1', () => {
     })
 })
 
-//client.write("Se liga nessa mensagem! :o");
-//app.set('view engine', 'ejs');
-
-
 //  BodyParser
 //app.engine('handlebars', handlebars.engine({defaultLayout: 'main'}));
-
-
-/*const bilhete = new Bilhete(bd);
-const recarga = new Recarga(bd);
-const uso = new Uso(bd);
 
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
