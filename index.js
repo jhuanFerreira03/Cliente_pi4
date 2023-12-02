@@ -45,6 +45,6 @@ client.connect(3000, '127.0.0.1', () => {
 //  BodyParser
 //app.engine('handlebars', handlebars.engine({defaultLayout: 'main'}));
 
-app.use(bodyParser.urlencoded({extended: false}));
+/*app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, "public")));*/
